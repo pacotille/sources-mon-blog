@@ -1,10 +1,9 @@
 ---
-title: Carpe Diem
+title: Infos GPU 
 ---
 
 
 
+# Mesure des temps de transfert entre cpu et gpu
 
-mesure des temps de transfert entre cpu et gpu
 
-Integer augue justo, scelerisque et consectetur id, rhoncus eget enim.
