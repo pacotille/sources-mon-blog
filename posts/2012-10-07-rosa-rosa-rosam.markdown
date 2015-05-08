@@ -12,7 +12,7 @@ PSEUDO CODE
 
 
 
-# Idexation spaciale sur GPU
+# Indexation spaciale sur GPU
 # Z-order
 # Tri du Z-order sur GPU
 # Algorithme de tri 

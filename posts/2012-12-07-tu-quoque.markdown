@@ -2,6 +2,9 @@
 title: Intersection Kernel obstacle
 author: PacoTille
 ---
+
+
+# Cas. d'un obstacle immobile
 sssssssssssssssssssssssssssssss
 $\mathbf{P} (\textit{End} V)$
 cing d'un nuage de glog
@@ -40,5 +43,5 @@ private:
     }
 };
 ~~~
-
+# Cas de l'obstacle mobile
 
