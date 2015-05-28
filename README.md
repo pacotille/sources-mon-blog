@@ -12,8 +12,6 @@ Les sources de mon site [pacotille.bitbucket.org](http://pacotille.bitbucket.org
 
 ### How do I get set up? ###
 
-$$I = \int \rho R^{2} dV$$
-
 * Compilation
 ~~~
 $ cd my-site
