@@ -41,7 +41,7 @@ int main(void)
 
 ## Boost compute
 
-~~~~~~
+~~~
 #include <vector>
 #include <algorithm>
 #include <boost/compute.hpp>
@@ -84,6 +84,7 @@ int main()
 ~~~
 
 # VexCL
+
 ~~~
 std::vector<double> h(n);       // Host vector.
 vex::vector<double> d(ctx, n);  // Device vector.
@@ -96,8 +97,6 @@ vex::copy(d, h);    // Copy data from device to host.
 vex::copy(h.begin(), h.end(), d.begin()); // Copy data from host to device.
 vex::copy(d.begin(), d.end(), h.begin()); // Copy data from device to host.
 ~~~
-
-
 
 ## Reference bibliographiques et lien
 
