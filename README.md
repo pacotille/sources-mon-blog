@@ -1,7 +1,7 @@
 # README #
 
 
-Les sources de mon site pacotille.bitbucket.org 
+Les sources de mon site [pacotille.bitbucket.org](http://pacotille.bitbucket.org).
 
 
 ### What is this repository for? ###
@@ -11,6 +11,8 @@ Les sources de mon site pacotille.bitbucket.org
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
+
+$$I = \int \rho R^{2} dV$$
 
 * Compilation
 ~~~
