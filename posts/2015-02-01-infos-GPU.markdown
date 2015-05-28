@@ -1,5 +1,6 @@
 ---
 title: Infos GPU
+author: PacoTille
 ---
 
 
