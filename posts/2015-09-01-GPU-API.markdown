@@ -3,14 +3,13 @@ title: Une API pour la GPU
 ---
 
 
-<h1>Des exemples</h1>
+# Des exemples
 
 ## Thrust
 
 [Thrust NVIDIA](https://developer.nvidia.com/Thrust) https://developer.nvidia.com/Thrust
 
-Example :
-
+### Example :
 
 ~~~
 #include <thrust/host_vector.h>
@@ -40,6 +39,10 @@ int main(void)
 ~~~
 
 ## Boost compute
+
+[Boost.Compute](https://github.com/boostorg/compute)
+
+### Example :
 
 ~~~
 #include <vector>
@@ -83,7 +86,11 @@ int main()
 }
 ~~~
 
-# VexCL
+## VexCL
+
+[VexCL](https://github.com/ddemidov/vexcl)
+
+### Example :
 
 ~~~
 std::vector<double> h(n);       // Host vector.
@@ -97,6 +104,53 @@ vex::copy(d, h);    // Copy data from device to host.
 vex::copy(h.begin(), h.end(), d.begin()); // Copy data from host to device.
 vex::copy(d.begin(), d.end(), h.begin()); // Copy data from device to host.
 ~~~
+
+	
+## ArrayFire
+
+[ArrayFire](http://arrayfire.com/)
+
+### Example :
+ 
+~~~ 
+#define __CL_ENABLE_EXCEPTIONS
+#include "cl.hpp"
+#include <vector>
+#include <iostream>
+#include <iterator>
+#include <algorithm>
+ 
+using namespace cl;
+using namespace std;
+ 
+int main(int argc, char* argv[]) {
+    Context(CL_DEVICE_TYPE_DEFAULT);
+    static const unsigned elements = 1000;
+    vector<float> data(elements, 5);
+    Buffer a(begin(data), end(data), true, false);
+    Buffer b(begin(data), end(data), true, false);
+    Buffer c(CL_MEM_READ_WRITE, elements * sizeof(float));
+ 
+    Program addProg(R"d(
+        kernel
+        void add(   global const float * restrict const a,
+                    global const float * restrict const b,
+                    global       float * restrict const c) {
+            unsigned idx = get_global_id(0);
+            c[idx] = a[idx] + b[idx];
+        }
+    )d", true);
+ 
+    auto add = make_kernel<Buffer, Buffer, Buffer>(addProg, "add");
+    add(EnqueueArgs(elements), a, b, c);
+ 
+    vector<float> result(elements);
+    cl::copy(c, begin(result), end(result));
+ 
+    std::copy(begin(result), end(result), ostream_iterator<float>(cout, ", "));
+}
+~~~
+
 
 ## Reference bibliographiques et lien
 
