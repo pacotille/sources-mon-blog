@@ -13,15 +13,15 @@ Les sources de mon site pacotille.bitbucket.org
 ### How do I get set up? ###
 
 * Compilation
-
+~~~
 $ cd my-site
 $ ghc --make -threaded site.hs
 $ ./site build
-
+~~~
 * Run
-
+~~~
 $ ./site watch
-
+~~~
 Regarder ici http://localhost:8000/.
 
 * Dependencies
