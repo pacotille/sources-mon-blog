@@ -3,16 +3,16 @@ title: Une API pour la GPU
 ---
 
 
-<h1>Des examples</h1>
+<h1>Des exemples</h1>
 
 ## Thrust
 
-https://developer.nvidia.com/Thrust
+[Thrust NVIDIA](https://developer.nvidia.com/Thrust) https://developer.nvidia.com/Thrust
 
 Example :
 
 
-
+~~~
 #include <thrust/host_vector.h>
 #include <thrust/device_vector.h>
 #include <thrust/generate.h>
@@ -37,11 +37,11 @@ int main(void)
 
     return 0;
 }
-
+~~~
 
 ## Boost compute
 
-
+~~~~~~
 #include <vector>
 #include <algorithm>
 #include <boost/compute.hpp>
@@ -81,10 +81,10 @@ int main()
 
     return 0;
 }
-
+~~~
 
 # VexCL
-
+~~~
 std::vector<double> h(n);       // Host vector.
 vex::vector<double> d(ctx, n);  // Device vector.
 
@@ -95,10 +95,10 @@ vex::copy(d, h);    // Copy data from device to host.
 // STL-like form:
 vex::copy(h.begin(), h.end(), d.begin()); // Copy data from host to device.
 vex::copy(d.begin(), d.end(), h.begin()); // Copy data from device to host.
+~~~
 
 
 
+## Reference bibliographiques et lien
 
-reference bibliographiques et lien
-
-https://developer.nvidia.com/Thrust
+[Thrust NVIDIA](https://developer.nvidia.com/Thrust) https://developer.nvidia.com/Thrust
