@@ -154,4 +154,4 @@ int main(int argc, char* argv[]) {
 
 ## Reference bibliographiques et lien
 
-[Thrust NVIDIA](https://developer.nvidia.com/Thrust) https://developer.nvidia.com/Thrust
+
