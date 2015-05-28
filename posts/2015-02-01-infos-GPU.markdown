@@ -1,0 +1,15 @@
+---
+title: Infos GPU
+---
+
+
+## Expraction des caractéristiques de la carte graphique
+# Le cas CUDA
+
+# Le cas OpenCL
+## Mesure des temps de transfert entre cpu et gpu
+
+
+
+
+https://software.intel.com/fr-fr/blogs/2013/12/10/premier-pas-sur-opencl-mon-pc-est-il-compatible
