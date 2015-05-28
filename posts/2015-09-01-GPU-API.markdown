@@ -1,0 +1,104 @@
+---
+title: Une API pour la GPU
+---
+
+
+<h1>Des examples</h1>
+
+## Thrust
+
+https://developer.nvidia.com/Thrust
+
+Example :
+
+
+
+#include <thrust/host_vector.h>
+#include <thrust/device_vector.h>
+#include <thrust/generate.h>
+#include <thrust/sort.h>
+#include <thrust/copy.h>
+#include <cstdlib>
+
+int main(void)
+{
+    // generate 32M random numbers on the host
+    thrust::host_vector<int> h_vec(32 << 20);
+    thrust::generate(h_vec.begin(), h_vec.end(), rand);
+
+    // transfer data to the device
+    thrust::device_vector<int> d_vec = h_vec;
+
+    // sort data on the device (846M keys per second on GeForce GTX 480)
+    thrust::sort(d_vec.begin(), d_vec.end());
+
+    // transfer data back to host
+    thrust::copy(d_vec.begin(), d_vec.end(), h_vec.begin());
+
+    return 0;
+}
+
+
+## Boost compute
+
+
+#include <vector>
+#include <algorithm>
+#include <boost/compute.hpp>
+
+namespace compute = boost::compute;
+
+int main()
+{
+    // get the default compute device
+    compute::device gpu = compute::system::default_device();
+
+    // create a compute context and command queue
+    compute::context ctx(gpu);
+    compute::command_queue queue(ctx, gpu);
+
+    // generate random numbers on the host
+    std::vector<float> host_vector(1000000);
+    std::generate(host_vector.begin(), host_vector.end(), rand);
+
+    // create vector on the device
+    compute::vector<float> device_vector(1000000, ctx);
+
+    // copy data to the device
+    compute::copy(
+        host_vector.begin(), host_vector.end(), device_vector.begin(), queue
+    );
+
+    // sort data on the device
+    compute::sort(
+        device_vector.begin(), device_vector.end(), queue
+    );
+
+    // copy data back to the host
+    compute::copy(
+        device_vector.begin(), device_vector.end(), host_vector.begin(), queue
+    );
+
+    return 0;
+}
+
+
+# VexCL
+
+std::vector<double> h(n);       // Host vector.
+vex::vector<double> d(ctx, n);  // Device vector.
+
+// Simple form:
+vex::copy(h, d);    // Copy data from host to device.
+vex::copy(d, h);    // Copy data from device to host.
+
+// STL-like form:
+vex::copy(h.begin(), h.end(), d.begin()); // Copy data from host to device.
+vex::copy(d.begin(), d.end(), h.begin()); // Copy data from device to host.
+
+
+
+
+reference bibliographiques et lien
+
+https://developer.nvidia.com/Thrust
