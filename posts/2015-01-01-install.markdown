@@ -1,6 +1,8 @@
 ---
 title: Utiliser cmake dans un projet CUDA et OpenCL
 author: PacoTille
+tags: coding, haskell, math
+math: true
 ---
 
 # Installation de CUDA et OpenCL
