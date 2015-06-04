@@ -45,7 +45,16 @@ private:
 ~~~
 # Cas de l'obstacle mobile
 
-
+$\sum_{i=1}^9 \frac{9!}{(9-i)!} = 986409$ 
+$\{ \mathcal{V} (S/R) \}
+= \left\{ \begin{array}{c}
+     \overrightarrow{\Omega} (S/R) \\
+     \overrightarrow{V} (B \in S/R)
+\end{array} \right\} _{B/R}
+= \left\{ \begin{array}{c}
+     \overrightarrow{\Omega} (S/R) \\
+     \overrightarrow{V} (A \in S/R) +\overrightarrow{BA} \wedge \overrightarrow{\Omega}(S/R)
+\end{array} \right\} _{B/R}$
 
 # Liens
 http://www.geometrictools.com/Documentation/IntersectionMovingSphereTriangle.pdf
