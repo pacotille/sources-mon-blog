@@ -22,12 +22,12 @@ Liens http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux/#axzz3a0B
 ## cmake sous Ubuntu 14.04 LTS
 
 Download from :
-http://www.cmake.org/download/ 
+http://www.cmake.org/download/
 
 
 <pre class="terminal">
-<span class="prompt">tmp</span>  
- tar zxvf cmake-3.2.2.tar.gz 
+<span class="prompt">tmp</span>
+ tar zxvf cmake-3.2.2.tar.gz
 
 cd cmake-3.2.2
  cmake -DCMAKE_INSTALL_PREFIX:PATH=/home/mcn/install . && make all install
@@ -38,7 +38,7 @@ cd cmake-3.2.2
 
 ## OpenCL sur Windows
 
-# OpenCL SDKS 
+# OpenCL SDKS
 
 1 NVIDIA – [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
 2 AMD – [AMD APP SDK](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/)
@@ -51,7 +51,7 @@ Download [AMD APP SDK](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-a
 sudo sh Install-AMD-APP.sh
 sudo sh Install-AMD-APP.sh
 
-# Cartes NVIDIA 
+# Cartes NVIDIA
 Download [NVIDIAs CUDA site](https://developer.nvidia.com/cuda-downloads)
 
 
