@@ -1,1 +1,8 @@
-ss
+---
+title: cmake OpenCL et CUDA
+author: PacoTille
+---
+
+
+## Comment créer un fichier cmake pour un projet OpenCL et CUDA
+
