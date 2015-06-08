@@ -14,7 +14,7 @@ Les sources de mon site [pacotille.bitbucket.org](http://pacotille.bitbucket.org
 
 * Compilation
 ~~~
-$ cd my-site
+$ cd sourcesmonblog
 $ ghc --make -threaded site.hs
 $ ./site build
 ~~~
