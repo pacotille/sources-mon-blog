@@ -6,6 +6,11 @@ author: PacoTille
 
 Torseur 
 
+
+> Définition. Le vecteur position du point P(t) du solide (S)
+>
+>
+
 # Cas d'un obstacle mobile
 sssssssssssssssssssssssssssssss
 $\mathbf{P} (\textit{End} V)$
