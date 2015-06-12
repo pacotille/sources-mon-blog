@@ -11,6 +11,23 @@ Torseur
 >
 >
 
+
+Dérivation d'un vecteur par rapport au temps
+
+
+
+\{ \mathcal{V} (S/R) \}
+= \left\{ \begin{array}{c}
+     \overrightarrow{\Omega} (S/R) \\
+     \overrightarrow{V} (B \in S/R)
+\end{array} \right\} _{B/R}
+= \left\{ \begin{array}{c}
+     \overrightarrow{\Omega} (S/R) \\
+     \overrightarrow{V} (A \in S/R) +\overrightarrow{BA} \wedge \overrightarrow{\Omega}(S/R)
+\end{array} \right\} _{B/R}
+
+
+
 # Cas d'un obstacle mobile
 sssssssssssssssssssssssssssssss
 $\mathbf{P} (\textit{End} V)$
