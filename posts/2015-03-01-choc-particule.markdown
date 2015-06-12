@@ -2,9 +2,11 @@
 title: Intersection Particule Triangle
 author: PacoTille
 ---
+# Cas d'un obstacle immobile
 
+Torseur 
 
-# Cas. d'un obstacle immobile
+# Cas d'un obstacle mobile
 sssssssssssssssssssssssssssssss
 $\mathbf{P} (\textit{End} V)$
 cing d'un nuage de glog
