@@ -1,6 +1,7 @@
 ---
 title: Infos GPU
 author: PacoTille
+tags: GPU
 ---
 
 
@@ -11,6 +12,6 @@ author: PacoTille
 ## Mesure des temps de transfert entre cpu et gpu
 
 
-
+# Des liens
 
 https://software.intel.com/fr-fr/blogs/2013/12/10/premier-pas-sur-opencl-mon-pc-est-il-compatible
