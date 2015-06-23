@@ -1,6 +1,7 @@
 ---
 title: SPH Tub
 author: PacoTille
+tags: SPH, GPU
 ---
 
 ## SPH Tub
