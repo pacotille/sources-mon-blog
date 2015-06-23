@@ -1,6 +1,7 @@
 ---
 title: Intersection Particule Triangle
 author: PacoTille
+tags: maths
 ---
 # Cas d'un obstacle immobile
 
