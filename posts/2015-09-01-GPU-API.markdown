@@ -1,6 +1,7 @@
 ---
 title: Une API pour la GPU
 author: PacoTille
+tags: GPU
 ---
 
 
