@@ -1,6 +1,7 @@
 ---
 title: cmake OpenCL et CUDA
 author: PacoTille
+tags: build
 ---
 
 
