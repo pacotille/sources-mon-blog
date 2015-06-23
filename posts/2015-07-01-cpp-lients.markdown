@@ -1,6 +1,7 @@
 ---
 title: Liens pour le C++
 author: PacoTille
+tags: C++
 ---
 
 <h1>Liens pour le C++</h1>
