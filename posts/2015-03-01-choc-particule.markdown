@@ -17,7 +17,7 @@ Dérivation d'un vecteur par rapport au temps
 
 
 
-\{ \mathcal{V} (S/R) \}
+$\{ \mathcal{V} (S/R) \}
 = \left\{ \begin{array}{c}
      \overrightarrow{\Omega} (S/R) \\
      \overrightarrow{V} (B \in S/R)
@@ -25,7 +25,7 @@ Dérivation d'un vecteur par rapport au temps
 = \left\{ \begin{array}{c}
      \overrightarrow{\Omega} (S/R) \\
      \overrightarrow{V} (A \in S/R) +\overrightarrow{BA} \wedge \overrightarrow{\Omega}(S/R)
-\end{array} \right\} _{B/R}
+\end{array} \right\} _{B/R}$
 
 
 
