@@ -82,5 +82,5 @@ $\{ \mathcal{V} (S/R) \}
 \end{array} \right\} _{B/R}$
 
 # Liens
-http://www.geometrictools.com/Documentation/IntersectionMovingSphereTriangle.pdf
-http://www.realtimerendering.com/intersections.html
+-[www.geometrictools.com](http://www.geometrictools.com/Documentation/IntersectionMovingSphereTriangle.pdf)
+-[www.realtimerendering.com](http://www.realtimerendering.com/intersections.html)
