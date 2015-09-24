@@ -14,4 +14,4 @@ tags: GPU
 
 # Des liens
 
-https://software.intel.com/fr-fr/blogs/2013/12/10/premier-pas-sur-opencl-mon-pc-est-il-compatible
+-[software.intel.com](https://software.intel.com/fr-fr/blogs/2013/12/10/premier-pas-sur-opencl-mon-pc-est-il-compatible)
