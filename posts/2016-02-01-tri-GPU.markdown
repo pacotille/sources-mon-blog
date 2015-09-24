@@ -1,1 +1,18 @@
-dsd
+---
+title: Tri sur GPU
+author: PacoTille
+tags: GPU
+---
+
+# Introduction
+# Bitonic parallèle
+# Implémentation
+
+# Références
+
+# Benchmarks
+
+# Download
+
+# Les liens
+- [www.bealto.com](http://www.bealto.com/gpu-sorting_intro.html)
