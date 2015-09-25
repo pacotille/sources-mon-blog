@@ -4,11 +4,11 @@ author: PacoTille
 tags: matrices
 ---
 
-<h1>R�solution degrands syst�mes linaires creux</h1>
+##R�solution degrands syst�mes linaires creux
 
-<h2>Repr�sentation compacte de la matrice</h2>
+#Repr�sentation compacte de la matrice
 
-<h2>Pivot de Gauss</h2>
+#Pivot de Gauss
 
 ~~~ {.cpp}
  Gauss-Jordan
