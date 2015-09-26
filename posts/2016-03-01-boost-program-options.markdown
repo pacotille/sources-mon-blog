@@ -1,7 +1,7 @@
 ---
-title: Utilisation de Boost program_options
+title: Utilisation de Boost program_options pour le traitement des sous-commandes
 author: PacoTille
-tags: C++
+tags: C++, Boost
 ---
 
 # Utilisation de Boost program_options pour le traitemant des sous-commandes

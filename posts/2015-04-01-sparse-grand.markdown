@@ -1,7 +1,7 @@
 ---
 title: Grande matrices creuses
 author: PacoTille
-tags: matrices
+tags: matrices, math
 ---
 
 ##R�solution degrands syst�mes linaires creux
