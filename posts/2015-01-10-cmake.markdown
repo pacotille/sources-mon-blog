@@ -7,3 +7,6 @@ tags: build
 
 ## Comment créer un fichier cmake pour un projet OpenCL et CUDA
 
+
+# Les liens
+-[Stream Computing](http://streamcomputing.eu/blog/2015-09-25/handling-opencl-with-cmake-3-1-and-higher/)
