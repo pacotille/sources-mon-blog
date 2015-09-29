@@ -1,7 +1,7 @@
 ---
 title: Liens pour le C++
 author: PacoTille
-tags: C++
+tags: C++, CUDA, OpenCL
 ---
 
 <h1>Mes liens</h1>

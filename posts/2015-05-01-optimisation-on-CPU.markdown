@@ -1,7 +1,7 @@
 ---
 title: Optimisation grace á l'arithméttique par interval et affine
 author: PacoTille
-tags: arithmétique
+tags: arithmétique, math
 ---
 
 # Optimisation globale par l'utilisation de l'arithmétique par interval

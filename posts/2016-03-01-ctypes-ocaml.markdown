@@ -1,7 +1,7 @@
 ---
 title: OCaml Ctypes
 author: PacoTille
-tags: OCAML
+tags: OCAML, C
 ---
 
 

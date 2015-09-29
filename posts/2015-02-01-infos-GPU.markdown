@@ -1,7 +1,7 @@
 ---
 title: Infos GPU
 author: PacoTille
-tags: GPU
+tags: GPU, CUDA, OpenCL
 ---
 
 
@@ -12,7 +12,7 @@ tags: GPU
 # Les infos
 
 
-
+pour Opencl 1.1
 CL_PLATFORM_PROFILE
 CL_PLATFORM_VERSION
 CL_PLATFORM_NAME

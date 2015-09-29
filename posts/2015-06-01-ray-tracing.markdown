@@ -1,7 +1,7 @@
 ---
 title: Raytracing de globs
 author: PacoTille
-tags: GPU
+tags: GPU, math, CUDA, OpenCL
 ---
 # Raytracing de 10 millions de globs.
 

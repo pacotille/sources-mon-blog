@@ -1,7 +1,7 @@
 ---
 title: Tri sur GPU
 author: PacoTille
-tags: GPU
+tags: GPU, CUDA, OpenCL
 ---
 
 # Introduction
