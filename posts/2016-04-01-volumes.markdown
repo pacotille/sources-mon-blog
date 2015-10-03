@@ -1,1 +1,16 @@
-hh
+---
+title: Calcul de volumes
+author: PacoTille
+tags: Maths, Algorithmes
+---
+
+# Introduction
+
+
+
+
+# Conclusion
+
+# Les liens
+- [www.bealto.com](http://www.bealto.com/gpu-sorting_intro.html)
+- [software.intel.com](https://software.intel.com/en-us/articles/bitonic-sorting)
