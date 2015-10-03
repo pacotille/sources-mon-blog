@@ -1,18 +1,29 @@
 ---
 title: Tri sur GPU
 author: PacoTille
-tags: GPU, CUDA, OpenCL
+tags: GPU, CUDA, OpenCL, Algorithmes
 ---
 
 # Introduction
-# Bitonic parallèle
-# Implémentation
+Le tri de tableau sur CPU est un problème classque de l'algorithmique. De
+puis l'émergence de GPU programmable se pose l'adaptation de ces methodes 
+au haut degré de paralélisme de ces composants.
 
-# Références
+# Bitonic parallèle
+
+## L'algorithme
+
+# Des implémentations
+
 
 # Benchmarks
+## Comparaison CUDA,OpenCL
+
+## Comparaison d'implémentations
 
 # Download
+
+# Conclusion
 
 # Les liens
 - [www.bealto.com](http://www.bealto.com/gpu-sorting_intro.html)

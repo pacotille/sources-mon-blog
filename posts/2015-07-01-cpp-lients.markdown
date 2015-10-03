@@ -20,7 +20,9 @@ tags: C++, CUDA, OpenCL
 - [Functional C++](https://functionalcpp.wordpress.com/)
 
 
+
 ## Les liens GPU
+
 - [Kyle Lutz](http://kylelutz.blogspot.fr/)
 - [Thrust](https://developer.nvidia.com/Thrust)
 - [cuSPARSE](https://developer.nvidia.com/cusparse)
@@ -32,6 +34,7 @@ tags: C++, CUDA, OpenCL
 
 
 ## Les liens OCaml
+
 - [OCaml Planet](http://planet.ocaml.org/)
 - [Jane Street Tech Blogs]( https://blogs.janestreet.com/)
 - [OCamlPro](http://www.ocamlpro.com/blog/)
