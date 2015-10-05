@@ -6,11 +6,23 @@ tags: Maths, Algorithmes
 
 # Introduction
 
+La formule de Green-Ostrogradsky de transformer une intégrale sur un volume en une simplfe intégrale de surface.
+
+Soiy un sous ensemble de compact possédant des bords lisses par morceaux. Soit une fonction de définie sur , alors
+avec le bord de, et n la normale unitaire sortante.
+Définisons F comme étant la fonction linéaire  : 
+
+av
+ec e un vecteur unitaire quelconque de . F est une fonction. sur , on a
+div(F)=
 
 
+Cette formule est générale, et permet d'exprimer le volume V du domaine bordé par une surface S continue.
+
+et 
 
 # Conclusion
 
-# Les liens
-- [www.bealto.com](http://www.bealto.com/gpu-sorting_intro.html)
+# Les liens et références 
+- [les surfaces gagnent du volumfe Damien ROHMER (Quadrature no 91]
 - [software.intel.com](https://software.intel.com/en-us/articles/bitonic-sorting)
