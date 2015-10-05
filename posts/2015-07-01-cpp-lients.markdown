@@ -18,7 +18,8 @@ tags: C++, CUDA, OpenCL
 - [Undefined behavior](http://definedbehavior.blogspot.fr/)
 - [Stefanus Du Toit's Blog](http://blog.sduto.it/)
 - [Functional C++](https://functionalcpp.wordpress.com/)
-
+- [Additional C/C++ Tooling](http://nickdesaulniers.github.io/blog/2015/07/23/additional-c-slash-c-plus-plus-tooling/)
+- [KLEE](https://klee.github.io/)
 
 
 ## Les liens GPU

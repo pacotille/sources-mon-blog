@@ -1,5 +1,5 @@
 ---
-title:Optimiaation grace á l'arithméttique par interval et affine
+title: Optimisation grace á l'arithmétique par interval et affine
 ---
 
 # Optimisation globale par l'utilisation de l'arithmétique par interval

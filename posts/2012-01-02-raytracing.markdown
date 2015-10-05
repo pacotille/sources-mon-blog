@@ -1,5 +1,5 @@
 ---
-titre : Raytracing de globs
+titre: Raytracing de globs
 ---
 # Raytracing de 10 millions de globs.
 
