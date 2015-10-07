@@ -4,7 +4,7 @@ author: PacoTille
 tags: Maths, Algorithmes
 ---
 
-# Introduction
+# Green-Ostrogradsky pour le calcul d'un volume
 
 La formule de Green-Ostrogradsky de transformer une intégrale sur un volume en une simplfe intégrale de surface.
 
@@ -17,16 +17,19 @@ avec $S = d\Omega$ le bord de $\Omega$, et $n$ la normale unitaire sortante.
 Définisons $F$ comme étant la fonction linéaire  : 
 
 av
-ec e un vecteur unitaire quelconque de . F est une fonction. sur , on a
-div(F)=
-
+ec e un vecteur unitaire quelconque de  $\mathbb{R}^3$. F est une fonction  $ C^1 $ sur  $ \mathbb{R}^3 , on a
+ $ div(F)=1 $ 
+On a  $$ \int_\Omega\,d\Omega=\int_S(F(p).n)\,dS $$ 
+ $$ V=\int_S(p.e)(e.n)\,dS $$ 
 
 Cette formule est générale, et permet d'exprimer le volume V du domaine bordé par une surface S continue.
 
-et 
+on prend  $ e=z $ 
+# Un exemple
 
 # Conclusion
 
 # Les liens et références 
+- [Analyse Concepts et contextes Volume 2. Fonctions de plusieurs variables, Stewart ISBN13  : 978-2-8041-5031-0]
 - [les surfaces gagnent du volumfe Damien ROHMER (Quadrature no 91]
 - [software.intel.com](https://software.intel.com/en-us/articles/bitonic-sorting)

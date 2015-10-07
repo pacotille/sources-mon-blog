@@ -1,10 +1,10 @@
 ---
 title: Liens pour le C++
 author: PacoTille
-tags: C++, CUDA, OpenCL
+tags: C++, GPU, CUDA, OpenCL,OCaml
 ---
 
-<h1>Mes liens</h1>
+ # Mes liens
 
 
 
@@ -37,7 +37,7 @@ tags: C++, CUDA, OpenCL
 ## Les liens OCaml
 
 - [OCaml Planet](http://planet.ocaml.org/)
-- [Jane Street Tech Blogs]( https://blogs.janestreet.com/)
+- [Jane Street Tech Blogs](https://blogs.janestreet.com/)
 - [OCamlPro](http://www.ocamlpro.com/blog/)
 - [typeocaml](http://typeocaml.com/)
 - [OCaml Labs](http://www.cl.cam.ac.uk/projects/ocamllabs/blogs/)

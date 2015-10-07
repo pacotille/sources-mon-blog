@@ -1,19 +1,19 @@
 ---
 title: Grande matrices creuses
 author: PacoTille
-tags: matrices, math
+tags:  maths
 ---
 
-##R�solution degrands syst�mes linaires creux
+# Résolution de grands systèmes linaires creux
 
-#Repr�sentation compacte de la matrice
+# Représentation compacte de la matrice
 
-#Pivot de Gauss
+# Pivot de Gauss
 
 ~~~ {.cpp}
  Gauss-Jordan
      r = 0 (r est l'indice de ligne du dernier pivot trouv�)
-     Pour j de 1 jusqu'� m (j d�crit tous les indices de colonnes)
+     Pour j de 1 jusqu'à m (j d�crit tous les indices de colonnes)
      |   Rechercher max(|A[i,j]|, r+1 = i = n), noter k la position du maximum
      |   A[k,j] est le pivot
      |   Si A[k,j]?0 alors

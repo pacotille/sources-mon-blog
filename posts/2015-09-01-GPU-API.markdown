@@ -1,15 +1,18 @@
 ---
 title: Une API pour la GPU
 author: PacoTille
-tags: GPU
+tags: GPU, C++
 ---
 
+ # Introduction
+
+Comparaison de quatre API simplifiants le calcul sur GPU
 
 # Des exemples
 
 ## Thrust
 
-[Thrust NVIDIA](https://developer.nvidia.com/Thrust) https://developer.nvidia.com/Thrust
+[Thrust NVIDIA](https://developer.nvidia.com/Thrust)
 
 ### Example :
 
