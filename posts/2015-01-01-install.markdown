@@ -41,9 +41,9 @@ cd cmake-3.2.2
 
 # OpenCL SDKS
 
-1 NVIDIA – [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
-2 AMD – [AMD APP SDK](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/)
-3 Intel - [Support](https://software.intel.com/en-us/intel-opencl-support)
+- NVIDIA – [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
+- AMD – [AMD APP SDK](http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/)
+- Intel - [Support](https://software.intel.com/en-us/intel-opencl-support)
 
 ## OpenCL sur Linux
 
@@ -66,3 +66,7 @@ Download [NVIDIAs CUDA site](https://developer.nvidia.com/cuda-downloads)
 
 
 ## Le output sous MacOS X
+
+# Les liens
+
+-[Stream Computing](http://streamcomputing.eu/blog/2015-09-25/handling-opencl-with-cmake-3-1-and-higher/)

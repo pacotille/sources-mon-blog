@@ -6,25 +6,20 @@ tags: Maths, Algorithmes
 
 # Green-Ostrogradsky pour le calcul d'un volume
 
-La formule de Green-Ostrogradsky de transformer une intégrale sur un volume en une simplfe intégrale de surface.
+La formule de Green-Ostrogradsky permet de transformer une intégrale sur un volume en une simplfe intégrale de surface.
 
-Soit $\Omega$ un sous ensemble $\mathbb{R}^3$ de compact possédant des bords lisses par morceaux. Soit $F$ une fonction $C^1$ de 
-$\mathbb{R}^3\longmapsto\mathbb{R}^3$
-
- définie sur $\Omega$, alors :
+Soit $\Omega$ un sous ensemble $\mathbb{R}^3$ de compact possédant des bords lisses par morceaux. Soit $F$ une fonction $C^1$ de $\mathbb{R}^3\longmapsto\mathbb{R}^3$ définie sur $\Omega$, alors :
 $$\int_\Omega div(F)\,d\Omega=\int_SF.n\,dS$$
 avec $S = d\Omega$ le bord de $\Omega$, et $n$ la normale unitaire sortante.
 Définisons $F$ comme étant la fonction linéaire  : 
 
-av
-ec e un vecteur unitaire quelconque de  $\mathbb{R}^3$. F est une fonction  $ C^1 $ sur  $ \mathbb{R}^3 , on a
- $ div(F)=1 $ 
-On a  $$ \int_\Omega\,d\Omega=\int_S(F(p).n)\,dS $$ 
- $$ V=\int_S(p.e)(e.n)\,dS $$ 
+avec $\overrightarrow{e}$ un vecteur unitaire quelconque de $\mathbb{R}^3$. F est une fonction $C^1$ sur $\mathbb{R}^3$, on a $div(F)=1$. On a $$\int_\Omega\,d\Omega=\int_S(F(p).n)\,dS$$ 
+ $$V=\int_S(p.e)(e.n)\,dS$$ 
 
 Cette formule est générale, et permet d'exprimer le volume V du domaine bordé par une surface S continue.
 
-on prend  $ e=z $ 
+On prend  $\overrightarrow{e}=\overrightarrow{z}$
+ 
 # Un exemple
 
 # Conclusion

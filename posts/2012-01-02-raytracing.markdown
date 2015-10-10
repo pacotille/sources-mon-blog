@@ -1,7 +1,7 @@
 ---
-titre: Raytracing de globs
-authors : PacoTille
-tags : maths
+title: Raytracing de globs
+authors: PacoTille
+tags: maths
 ---
 # Raytracing de 10 millions de globs.
 
@@ -14,5 +14,5 @@ tags : maths
 
 # Compléxité
 
- # Liens
+# Liens
 
