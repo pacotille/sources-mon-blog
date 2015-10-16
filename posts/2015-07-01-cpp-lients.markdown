@@ -1,10 +1,10 @@
 ---
 title: Liens pour le C++
 author: PacoTille
-tags: C++, GPU, CUDA, OpenCL,OCaml
+tags: C++, GPU, CUDA, OpenCL, OCaml
 ---
 
- # Mes liens
+ #  Mes liens
 
 
 
@@ -31,7 +31,6 @@ tags: C++, GPU, CUDA, OpenCL,OCaml
 - [VexCL](https://github.com/ddemidov/vexcl)
 - [Boost compute](https://github.com/boostorg/compute)
 - [Blender Cycles](http://wiki.blender.org/index.php/Doc:FR/2.6/Manual/Render/Cycles)
-
 
 
 ## Les liens OCaml

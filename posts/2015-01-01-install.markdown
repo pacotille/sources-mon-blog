@@ -69,4 +69,7 @@ Download [NVIDIAs CUDA site](https://developer.nvidia.com/cuda-downloads)
 
 # Les liens
 
+-[exemple libsibdiv]
+-[example vexcl]
+
 -[Stream Computing](http://streamcomputing.eu/blog/2015-09-25/handling-opencl-with-cmake-3-1-and-higher/)

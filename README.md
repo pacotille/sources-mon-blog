@@ -1,16 +1,13 @@
 # README #
 
 
-Les sources de mon site [pacotille.bitbucket.org](http://pacotille.bitbucket.org).
 
+### Utile ###
 
-### What is this repository for? ###
+* Les sources de mon site [pacotille.bitbucket.org](http://pacotille.bitbucket.org).
+* [Apprendre Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
+### Construire le site ###
 
 * Compilation
 ~~~
