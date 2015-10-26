@@ -4,16 +4,16 @@ author: PacoTille
 tags: Maths, Algorithmes
 ---
 
-# Green-Ostrogradsky pour le calcul d'un volume
+# Utilisation de la formule de Green-Ostrogradsky pour le calcul d'un volume
 
 La formule de Green-Ostrogradsky permet de transformer une intégrale sur un volume en une simplfe intégrale de surface.
 
-Soit $\Omega$ un sous ensemble $\mathbb{R}^3$ de compact possédant des bords lisses par morceaux. Soit $F$ une fonction $C^1$ de $\mathbb{R}^3\longmapsto\mathbb{R}^3$ définie sur $\Omega$, alors :
-$$\int_\Omega div(F)\,d\Omega=\int_SF.n\,dS$$
-avec $S = d\Omega$ le bord de $\Omega$, et $n$ la normale unitaire sortante.
+Soit $\Omega$ un sous ensemble $\mathbb{R}^3$ de compact possédant des bords lisses par morceaux. Soit $\overrightarrow{F}$ une fonction $C^1$ de $\mathbb{R}^3\longmapsto\mathbb{R}^3$ définie sur $\Omega$, alors :
+$$\int_\Omega div(\overrightarrow{F})\,d\Omega=\int_S\overrightarrow{F}.n\,dS$$
+avec $S = d\Omega$ le bord de $\Omega$, et $\overrightarrow{n}$ la normale unitaire sortante.
 Définisons $F$ comme étant la fonction linéaire  : 
 
-avec $\overrightarrow{e}$ un vecteur unitaire quelconque de $\mathbb{R}^3$. F est une fonction $C^1$ sur $\mathbb{R}^3$, on a $div(F)=1$. On a $$\int_\Omega\,d\Omega=\int_S(F(p).n)\,dS$$ 
+avec $\overrightarrow{e}$ un vecteur unitaire quelconque de $\mathbb{R}^3$. \overrightarrow{F} est une fonction $C^1$ sur $\mathbb{R}^3$, on a $div(\overrightarrow{F})=1$. On a $$\int_\Omega\,d\Omega=\int_S(F(p).n)\,dS$$ 
  $$V=\int_S(p.e)(e.n)\,dS$$ 
 
 Cette formule est générale, et permet d'exprimer le volume V du domaine bordé par une surface S continue.
@@ -21,6 +21,10 @@ Cette formule est générale, et permet d'exprimer le volume V du domaine bordé
 On prend  $\overrightarrow{e}=\overrightarrow{z}$
  
 # Un exemple
+
+Calcul du volume de la sphere unité $x^2+y^2+z^2=1$
+
+On prend $\overrightarrow{F}(x,y,z)=z\overrightarrow{i}+y\overrightarrow{j}+x\overrightarrow{k}$
 
 # Conclusion
 
