@@ -19,12 +19,29 @@ avec $\overrightarrow{e}$ un vecteur unitaire quelconque de $\mathbb{R}^3$. \ove
 Cette formule est générale, et permet d'exprimer le volume V du domaine bordé par une surface S continue.
 
 On prend  $\overrightarrow{e}=\overrightarrow{z}$
- 
+
 # Un exemple
 
 Calcul du volume de la sphere unité $x^2+y^2+z^2=1$
 
-On prend $\overrightarrow{F}(x,y,z)=z\overrightarrow{i}+y\overrightarrow{j}+x\overrightarrow{k}$
+On prend $\overrightarrow{F}(x,y,z)=x\overrightarrow{i}+y\overrightarrow{j}+z\overrightarrow{k}$
+
+Description paramétrique de la sphère :
+
+$\overrightarrow{r}(\phi, \theta)=\sin \phi \cos \theta \overrightarrow{i}+\sin \phi sin \theta \overrightarrow{j}+ \cos \phi \overrightarrow{k}$ avec $0 \leq \phi \leq \pi$
+
+On a :
+
+$\overrightarrow{F}(\overrightarrow{r}(\phi, \theta))=\sin \phi \cos \theta \overrightarrow{i}+\sin \phi sin \theta \overrightarrow{j}+ \cos \phi \overrightarrow{k}$ 
+
+$\overrightarrow{r}_\phi\wedge \overrightarrow{r}_\theta=\sin^2 \phi \cos \theta \overrightarrow{i}+\sin^2 \phi sin \theta \overrightarrow{j}+ \cos \phi \overrightarrow{k}$ 
+
+On a donc :
+
+$\overrightarrow{F}(\overrightarrow{r}(\phi,\theta)).(\overrightarrow{r}_\phi\wedge \overrightarrow{r}_\theta)=\cos \phi \sin^2 \phi \cos \theta +\sin^3 \phi sini^2 \theta + \sin^2 \phi \cos \phi \cos \theta$ 
+
+
+$$\int_S \overrightarrow{F}.\,d\overrightarrow{S}=\int_D\overrightarrow{F}(\overrightarrow{r}(\phi,\theta)).(\overrightarrow{r}_\phi\wedge \overrightarrow{r}_\theta)\,d A$$ 
 
 # Conclusion
 
