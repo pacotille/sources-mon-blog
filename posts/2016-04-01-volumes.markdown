@@ -26,6 +26,8 @@ Calcul du volume de la sphere unité $x^2+y^2+z^2=1$
 
 On prend $\overrightarrow{F}(x,y,z)=x\overrightarrow{i}+y\overrightarrow{j}+z\overrightarrow{k}$
 
+![](/images/field1.gif)
+
 Description paramétrique de la sphère :
 
 $\overrightarrow{r}(\phi, \theta)=\sin \phi \cos \theta \overrightarrow{i}+\sin \phi sin \theta \overrightarrow{j}+ \cos \phi \overrightarrow{k}$ avec $D=\{(\phi, \theta)\vert 0 \leq \phi \leq \pi, 0 \leq \theta \leq 2\pi\}$
